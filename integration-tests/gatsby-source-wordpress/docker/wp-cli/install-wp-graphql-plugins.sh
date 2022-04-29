@@ -1,5 +1,5 @@
 #!/bin/bash
-WP_CONTENT_DIR=/usr/src/wordpress/wp-content
+WP_CONTENT_DIR=/var/www/html/wp-content
 PLUGIN_DIR=${WP_CONTENT_DIR}/plugins
 
 mkdir -p ${PLUGIN_DIR} && \
